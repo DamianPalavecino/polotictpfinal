@@ -1,0 +1,34 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+
+{% block title %} Acerca de {% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col m-2">
+            <p class="h2 text-center text-white">
+                Jaguarete KAA S.A
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12 m-auto">
+            <img src="{% static 'img/jaguarete.png' %}" class="img-thumbnail p-2 m-2" alt="Imagen acerca de">
+        </div>
+        <div class="col-lg-6 col-sm-12 m-auto">
+            <p class="text-white">
+                Jaguarete KAA S.A es una empresa de venta de calzado. Nuestro principal objetivo es que nuestros productos sean de tu gusto y comodidad. Podes encontrarnos en calle Corrientes y 9 de Febrero en Rosario, Santa Fe. 
+                
+                También podes contactarnos a traves de:
+                
+                - Numero de telefono: +543541622270
+                - Dirección de Email: jaguaretekaa@gmail.com
+            </p>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
